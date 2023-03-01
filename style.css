@@ -1,0 +1,33 @@
+#kapsayici{
+    margin-top: 20px;
+    background-color: green;
+    display:flex;
+    flex-direction: column;
+    position: relative;
+}
+img{
+    width: 100px;
+    height: 100px;
+    /*bu özellik ile atlar tak tak diye yavaş gitmeyecek*/
+    transition: all 2s;
+}
+hr{
+    width: 100%;
+}
+#bitis{
+    width: 5px;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    right: 50px;
+} 
+#buton{
+    display: flex;
+    justify-content: space-around;
+}
+#buton button{
+    width: 150px;
+    height: 50px;
+    background-color:#A9A9A9;
+    margin-top: 20px;
+}
